@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Image Gallery using HTML, CSS and JavaScript">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <div class="filters">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('city')">City</button>
+        <button onclick="filterImages('flowers')">Flowers</button>
+    </div>
+
+    <div class="gallery">
+        <img src="https://i.pinimg.com/1200x/90/ff/b9/90ffb9b1b163b494575538e05a209f21.jpg" class="gallery-item nature" alt="">
+        <img src="https://i.pinimg.com/1200x/b6/10/d9/b610d9eae52b5f007dc8797dae6f63f6.jpg" class="gallery-item nature" alt="">
+        <img src="https://i.pinimg.com/1200x/bc/be/23/bcbe23d5127ffc94eef080fe86e91610.jpg" class="gallery-item nature" alt="">
+        <img src="https://i.pinimg.com/1200x/69/de/64/69de6455d2c253edf96527ea40665e46.jpg" class="gallery-item city" alt="">
+        <img src="https://i.pinimg.com/1200x/33/16/58/3316588ad0d01c38e17192ba7419676b.jpg" class="gallery-item city" alt="">
+        <img src="https://i.pinimg.com/736x/9b/e0/b6/9be0b604a481924e3b38eae52626e4e4.jpg" class="gallery-item flowers" alt="">
+        <img src="https://i.pinimg.com/1200x/0b/b8/cc/0bb8ccc1be9025ae1e96642688b356d9.jpg" class="gallery-item flowers" alt="">
+        <img src="https://i.pinimg.com/1200x/4c/3a/de/4c3ade535f2985b9b3b5dd4b1d779f50.jpg" class="gallery-item flowers" alt="">
+    </div>
+
+    <div id="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img">
+        <button id="prev">&#10094;</button>
+        <button id="next">&#10095;</button>
+    </div>
+
+
+            
+        
+        
+        
+        
+   <script src="script.js"></script>
+</body>
+</html>
